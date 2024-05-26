@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>ROSAL PORTFOLIO</title>
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f8f8f8;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav {
+    background: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1em 2em;
+    display: block;
+}
+
+nav ul li a:hover {
+    background: #4CAF50;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+.section-container {
+    background: white;
+    padding: 2em;
+    margin-bottom: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4CAF50;
+    margin-top: 0;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justine Ray Rosal - Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Justine Ray S. Rosal</h1>
+            <p>Expert in Accounting Information Systems & Financial Analysis</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <div class="section-container">
+                <h2>About Me</h2>
+                <p>
+                    I am a dedicated professional with a Bachelor of Science in Accounting Information System from Western Leyte College. I have hands-on experience in financial analysis, bookkeeping, and data management, honed through rigorous academic training and on-the-job experience at the City Treasurer’s Office in Ormoc City Hall.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="section-container">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Attention to Detail</li>
+                    <li>Communication and Interpersonal Skills</li>
+                    <li>Team Collaboration</li>
+                    <li>Organizational Skills</li>
+                    <li>Data Entry and Management</li>
+                    <li>Financial Analysis</li>
+                    <li>Bookkeeping</li>
+                    <li>Financial Reporting</li>
+                    <li>Budgeting and Forecasting</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="section-container">
+                <h2>Work Experience</h2>
+                <div class="job">
+                    <h3>City Treasurer’s Office - Ormoc City Hall</h3>
+                    <p><strong>Period:</strong> November 14, 2023 – January 24, 2024</p>
+                    <p><strong>Role:</strong> On-The-Job Trainee</p>
+                    <ul>
+                        <li>Encoded various fees and charges using Microsoft Excel</li>
+                        <li>Calculated Real Property Tax Delinquency</li>
+                        <li>Entered Real Estate Tax Declarations into the RPTA System</li>
+                        <li>Assisted in generating and organizing notices of tax delinquency</li>
+                        <li>Released Real Property Tax Bill documents to clients</li>
+                        <li>Filed Business Assessment Slips for new businesses</li>
+                        <li>Organized documents for new and renewing business applications</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <h3>M.Edaño & Co. CPAs</h3>
+                    <p><strong>Period:</strong> November 2019 (Work Immersion)</p>
+                    <p><strong>Role:</strong> Senior High School Intern</p>
+                    <ul>
+                        <li>Rendered 80-hour service work immersion</li>
+                        <li>Wrote transactions in vouchers to journals and posted to ledger accounts</li>
+                        <li>Organized monthly receipts from long-term clients</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="section-container">
+                <h2>Education</h2>
+                <p><strong>Bachelor of Science in Accounting Information System</strong><br>Western Leyte College, A. Bonifacio Street Ormoc City</p>
+                <p><strong>Ormoc City Senior High School</strong><br>Don Felipe Larrazabal Ormoc City Leyte</p>
+                <p><strong>Tuburan National High School</strong><br>Brgy.7 Poblacion Tuburan Cebu</p>
+                <p><strong>Ormoc City Central School</strong><br>Carlos Tan St. Ormoc City Leyte</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="section-container">
+                <h2>Contact</h2>
+                <p><strong>Address:</strong> Lilia Avenue, Cogon, Ormoc City</p>
+                <p><strong>Phone:</strong> 09070361664</p>
+                <p><strong>Email:</strong> justineray.rosal@gmail.com</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Justine Ray S. Rosal. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
